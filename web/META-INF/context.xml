@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/shoppingweb">
+    <Resource 
+        name="DV007" type="javax.sql.DataSource" auth="Container"
+        driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+        url="jdpc:sqlserver://localhost:1433;databaseName="
+        username="sa" password="12345"
+    />
+</Context>
+    
