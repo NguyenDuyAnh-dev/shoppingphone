@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/register.css">
+</head>
+<body>
+    <div id="main">
+        <div id="register-space">
+            <form action="DispatchServlet" method="POST">
+                <h1>Create Account</h1>
+                <div class="username-input info">
+                    <label for="username">Username:</label>
+                    <input type="text" name="txtUsername" value="" id="username"/>
+                </div>(6 - 20 chars)<br/>
+                <div class="password-input info">
+                    <label for="password">Password:</label>
+                    <input type="password" name="txtPassword" value="" id="password"/>
+                </div>(6 - 20 chars)<br/>
+                <div class="confirm-input info">
+                    <label for="confirm">Confirm:</label>
+                    <input type="password" name="txtConfirm" value="" id="confirm"/>
+                </div><br/>
+                <div class="fullname-input info">
+                    <label for="fullname">Full name:</label>
+                    <input type="text" name="txtFullname" value="" id="fullname"/>
+                </div>(2 - 50 chars)<br/>
+                
+                <input type="submit" value="Create Account" name="btAction" class="submit-btn"/>
+                <input type="reset" value="Reset" class="reset-btn"/>
+            </form><br/>
+            <div class="footer">
+                <form action="DispatchServlet">
+                    <span>Have already an account?</span>
+                    <a href="login.html">Login Here!</a>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

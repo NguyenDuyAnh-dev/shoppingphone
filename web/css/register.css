@@ -1,0 +1,78 @@
+body{
+    background-color: cornsilk;
+}
+#main{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    
+}
+#register-space{
+    background-color: aliceblue;
+    width: 60%;
+    height: 500px;
+    position: relative;
+}
+#register-space h1{
+    text-align: center;
+    background-color: lightcyan;
+    color: brown;
+    margin-top: 0;
+    height: 20%;
+    line-height: 210%;
+    font-size: -webkit-xxx-large;
+}
+#register-space form{
+    text-align: center;
+    
+}
+#register-space form label{
+    font-size: x-large;
+    color: brown;
+    margin-left: 25%;
+}
+#register-space form .info{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+#register-space form .confirm-input label{
+    
+}
+#register-space form div input{
+    width: 350px;
+    padding: 5px;
+    border-radius: 30px;
+    border-color: gray;
+    margin-right: 30%;
+    height: 12px;
+}
+#register-space form .submit-btn,
+#register-space form .reset-btn{
+    padding: 5px 10px;
+    border-radius: 30px;
+    border-color: gray;
+    background-color: black;
+    border: none;
+    color: #fff;
+    font-size: large;
+    margin: 15px 20px;
+    width: 180px;
+}
+.footer{
+    background-color: antiquewhite;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    height: 11%;
+    align-content: center;
+    color: darkblue;
+}
+.footer a{
+    margin: 20px;
+    padding: 10px;
+    background-color: bisque;
+    color: brown;
+}
