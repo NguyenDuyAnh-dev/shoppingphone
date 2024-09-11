@@ -9,19 +9,29 @@ and open the template in the editor.
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/login.css">
     </head>
     <body>
-    <div>
-        <div>
+    <div id="main">
+        <div id="login-space">
             <h1> Login Form </h1>
             <form action="DispatchServlet" method="POST">
-                username: <input type="text" name="user" value="" required=""/><br />
-                password: <input type="password" name="pass" value="" required=""/><br />
-                <input type="submit" name="btAction" value="Login"/>
-                <input type="reset" value="Reset"/>
+                <div class="username-input">
+                    <label for="username">Username:</label>
+                    <input type="text" name="user" value="" required="" id="username"/><br />
+                </div>
+                <div class="password-input">
+                    <label for="password">Password:</label>
+                    <input type="password" name="pass" value="" required="" id="password"/><br />
+                </div>
+                
+                <input type="submit" name="btAction" value="Login" class="submit-btn"/>
+                <input type="reset" value="Reset" class="reset-btn"/>
             </form>
-            <a href="createAccount.html">Sign Up</a>
-            <a href="showBookServlet">Link Market</a>
+            <div class="footer">
+                <a href="createAccount.html">Sign Up</a>
+                <a href="showBookServlet">Link Market</a>
+            </div>
         </div>
     </div>
 

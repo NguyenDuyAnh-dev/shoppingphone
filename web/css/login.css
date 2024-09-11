@@ -1,0 +1,79 @@
+body{
+    background-color: cornsilk;
+}
+#main{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    
+}
+
+#login-space{
+    background-color: aliceblue;
+    width: 60%;
+    height: 400px;
+    position: relative;
+}
+#login-space h1{
+    text-align: center;
+    background-color: lightcyan;
+    color: brown;
+    margin-top: 0;
+    height: 20%;
+    line-height: 210%;
+    font-size: -webkit-xxx-large;
+}
+#login-space form{
+    text-align: center;
+    margin-top: 80px;
+}
+#login-space form label{
+    color: brown;
+    font-size: x-large;
+}
+#login-space form #username{
+    width: 350px;
+    padding: 5px;
+    border-radius: 30px;
+    border-color: gray;
+}
+#login-space form .username-input,
+#login-space form .password-input{
+    margin: 20px 0;
+}
+#login-space form #password{
+    width: 350px;
+    padding: 5px;
+    border-radius: 30px;
+    border-color: gray;
+    margin-left: 5px;
+}
+#login-space form .submit-btn,
+#login-space form .reset-btn{
+    padding: 5px 25px;
+    border-radius: 30px;
+    border-color: gray;
+    background-color: black;
+    border: none;
+    color: #fff;
+    font-size: large;
+    margin: 5px 20px;
+    width: 150px;
+}
+
+.footer{
+    background-color: antiquewhite;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    height: 11%;
+    align-content: center;
+}
+.footer a{
+    margin: 20px;
+    padding: 10px;
+    background-color: bisque;
+    color: brown;
+}
